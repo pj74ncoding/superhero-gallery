@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Picture Gallery</title>
+    <link rel="stylesheet" href="picture-project.css" />
+  </head>
+  <body>
+    <div class="main-container background-batman" id="main-container">
+      <!-- thumbnail section -->
+      <section class="thumbnail-section">
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.dc.com/blog/2019/03/19/batman-a-history-of-heroics-the-beginning"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image white-border"
+              id="batman-one-image"
+              src="https://images.hdqwalls.com/wallpapers/bthumb/the-batman-unseen-face-qv.jpg"
+              alt="This digital artwork depicts Batman in his iconic armored suit, standing before a dark, stormy Gotham City skyline with the Bat-Signal glowing in the moonlight."
+            />
+          </a>
+        </div>
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.dc.com/blog/2019/03/19/batman-a-history-of-heroics-the-beginning"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image greyscale"
+              id="batman-two-image"
+              src="https://images.hdqwalls.com/download/batman-gotham-4k-7r-2560x1440.jpg"
+              alt="Digital artwork that depicts Batman standing before a dark, stormy skyline of Gotham City, with bats flying overhead and the Bat-Signal glowing in the moonlight."
+            />
+          </a>
+        </div>
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.marvel.com/articles/comics/the-history-of-spider-man-1962-1963"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image greyscale"
+              id="spiderman-one-image"
+              src="https://www.pixelstalk.net/wp-content/uploads/image11/Spiderman-in-a-colorful-comic-book-style-leaping-towards-the-viewer.jpg"
+              alt="Digital artwork that depicts Spider-Man in a dynamic pose, swinging forward against a vibrant, multicolored background"
+            />
+          </a>
+        </div>
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.marvel.com/articles/comics/the-history-of-spider-man-1962-1963"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image greyscale"
+              id="spiderman-two-image"
+              src="https://wallpapercave.com/wp/wp12600086.jpg"
+              alt="Image shows Spider-Man in his iconic red and blue suit, swinging through the air with a web in hand against a glowing blue background"
+            />
+          </a>
+        </div>
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.dc.com/blog/2023/04/18/the-evolution-of-superman-s-origin"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image greyscale"
+              id="superman-one-image"
+              src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/17-superman-wall-art-tim-hill.jpg"
+              alt="An illustration that depicts Superman in his iconic blue suit with a red cape, featuring the bold 'S' emblem on his chest"
+            />
+          </a>
+        </div>
+
+        <div class="thumbnail-image-container">
+          <a
+            href="https://www.dc.com/blog/2023/04/18/the-evolution-of-superman-s-origin"
+            target="_blank"
+          >
+            <img
+              class="thumbnail-image greyscale"
+              id="superman-two-image"
+              src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/4-superman-wall-art-tim-hill.jpg"
+              alt="This digital artwork depicts Superman soaring through the sky in his iconic blue suit with a flowing red cape and the 'S' emblem on his chest."
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- main gallery section -->
+      <div class="picture-gallery-main-container">
+        <div class="heading-container">
+          <h1 class="heading">Superhero Picture Gallery</h1>
+        </div>
+        <div id="picture-div" class="picture-container">
+          <div class="original-image-container">
+            <img
+              class="original-image"
+              src="https://images.hdqwalls.com/wallpapers/bthumb/the-batman-unseen-face-qv.jpg"
+              alt="This digital artwork depicts Batman in his iconic armored suit, standing before a dark, 
+              stormy Gotham City skyline with the Bat-Signal glowing in the moonlight."
+            />
+            <figcaption class="fig-description">Batman</figcaption>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="option-buttons" onclick="prevButton()">
+            &lt; Prev
+          </button>
+          <button class="option-buttons" onclick="nextButton()">Next ></button>
+          <button class="option-buttons" id="background-effect-button">
+            Change background
+          </button>
+          <div class="blur-effect" id="blur-style">Blur</div>
+          <!-- <div class="normal-effect" id="gradient-style">Gradient</div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="picture-project.js"></script>
+  </body>
+</html>
