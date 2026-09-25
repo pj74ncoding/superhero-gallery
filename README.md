@@ -39,6 +39,7 @@ What problem does this application solve?
 
 ### Learning Outcomes
 
+- Learnt to store the image URL's in an array
 - Learnt how to use JavaScript to change the image
 - Learnt how to use CSS to add a filter effect
 - Learnt how to use CSS to add a gradient colour theme
