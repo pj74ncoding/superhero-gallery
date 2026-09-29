@@ -27,11 +27,11 @@ Live Demo: https://superhero-gallery-ruby.vercel.app/
 ## Overview
 
 ### Motivation
+
+- Personal project
+
  I wanted to develop a slideshow where I could add funtionality to switch between previous and next images.
  I also wanted to add a nice design to the homepage
-
-
-
 
 ### Objective
 
@@ -44,13 +44,7 @@ What problem does this application solve?
 - Learnt how to use CSS to add a filter effect
 - Learnt how to use CSS to add a gradient colour theme
 
-
-
-
-
 ## Project Features
-
-
 
 -  Buttons to display previous or next images
 -  A window to display the image
@@ -89,12 +83,6 @@ client/
 |   picture-project.css
 |   picture-project.js
 
-  
-
-    
-
-      
-
 ```
 
 ---
@@ -107,9 +95,6 @@ client/
 git clone https://github.com/pj74ncoding/superhero-gallery.git
 cd superhero-gallery
 
-
-
-
 ```
 
 ### Install Dependencies
@@ -118,10 +103,6 @@ Frontend:
 
 ```bash
 cd js-superhero-gallery
-
-
-
-
 npm install
 ```
 
@@ -132,8 +113,6 @@ Frontend:
 ```bash
 npm start
 ```
-
-
 
 Add inside README:
 
