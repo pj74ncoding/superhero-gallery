@@ -33,10 +33,6 @@ Live Demo: https://superhero-gallery-ruby.vercel.app/
  I wanted to develop a slideshow where I could add funtionality to switch between previous and next images.
  I also wanted to add a nice design to the homepage
 
-### Objective
-
-What problem does this application solve?
-
 ### Learning Outcomes
 
 - Learnt to store the image URL's in an array
