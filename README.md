@@ -1,6 +1,5 @@
 # superhero-gallery
 
-
 Created and designed an application to display images with functionality
 
 
@@ -45,7 +44,7 @@ Live Demo: https://superhero-gallery-ruby.vercel.app/
 -  Buttons to display previous or next images
 -  A window to display the image
 -  Background functionality to have a blur or a gradient theme
--  All the images are displayed in the left hand side in greyscale apart from the image which is displayed in the main window, that image will be in colour.
+-  All the images are displayed in the left hand side in greyscale, apart from the image which is displayed in the main window, that image       will be in colour.
 
 ---
 
@@ -98,11 +97,10 @@ cd superhero-gallery
 Frontend:
 
 ```bash
-cd js-superhero-gallery
 npm install
 ```
 
-### Run Development Servers
+### Application
 
 Frontend:
 
