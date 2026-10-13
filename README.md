@@ -108,13 +108,8 @@ Frontend:
 npm start
 ```
 
-Add inside README:
-
-```markdown
-![Home Page](assets/home.png)
-![Dashboard](assets/dashboard.png)
+oard](assets/dashboard.png)
 ```
-
 ---
 
 ## Future Improvements
