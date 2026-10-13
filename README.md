@@ -108,8 +108,6 @@ Frontend:
 npm start
 ```
 
-oard](assets/dashboard.png)
-```
 ---
 
 ## Future Improvements
